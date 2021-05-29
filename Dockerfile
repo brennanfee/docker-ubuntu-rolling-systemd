@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   ## Include systemd
   systemd systemd-sysv \
   ## Extra packages to better match a non-docker setup
-  cron file less locales tzdata gawk gnupg \
+  cron file less locales tzdata gawk gnupg snapd \
   ## Mimic my standard bootstrap setup
   openssh-server openssh-client lsb-release build-essential dkms sudo acl curl \
   wget git vim \
